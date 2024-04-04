@@ -10,3 +10,14 @@ It is also possible to extend the generator to bundle the Java functions with th
 These applications can run standalone or as part of a data flow, such as the one orchestrated using Spring Cloud Data Flow.
 
 ## Project Structure
+
+The repository includes two major sections - `Functions` and `Applications`.
+The former hosts the various Java functions, and the latter is for generating the standalone Spring Cloud Stream applications and hosting their related components.
+
+The following are the various components of this repository.
+
+* https://github.com/spring-cloud/stream-applications/tree/master/functions[Standalone Java Functions]
+* https://github.com/spring-cloud/stream-applications/tree/master/applications/stream-applications-core[Common Core Components for Applications]
+* https://github.com/spring-cloud/stream-applications/tree/master/applications[Spring Cloud Stream Applications]
+* https://github.com/spring-cloud/stream-applications/tree/master/stream-applications-build[Build Parent]
+* https://github.com/spring-cloud/stream-applications/tree/master/stream-applications-release-train[Release Train]
