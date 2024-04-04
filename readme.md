@@ -64,42 +64,25 @@ The following are the various components of this repository.
 | Source                                                                    | Processor                                                                  | Sink                         |                      
 | ------------------------------------------------------------------------- |:--------------------------------------------------------------------------:| ----------------------------:|
 |[Debezium supplier](applications/source/debezium-source/README.adoc)   |[Aggregator](applications/processor/aggregator-processor/README.adoc)|[Analytics](applications/sink/analytics-sink/README.adoc)|
+|[File](applications/source/file-source/README.adoc)|[Bridge](applications/processor/bridge-processor/README.adoc)|[Cassandra](applications/sink/cassandra-sink/README.adoc)|
+|[FTP](applications/source/ftp-source/README.adoc)|[Filter](applications/processor/filter-processor/README.adoc)|[Elasticsearch](applications/sink/elasticsearch-sink/README.adoc)|
+|    |[Groovy](applications/processor/groovy-processor/README.adoc)|[File](applications/sink/file-sink/README.adoc)|
+|[HTTP](applications/source/http-source/README.adoc)|[Header-Enricher](applications/processor/header-enricher-processor/README.adoc)|[FTP](applications/sink/ftp-sink/README.adoc)|
+|[JDBC](applications/source/jdbc-source/README.adoc)|[HTTP Request](applications/processor/http-request-processor/README.adoc)|    |
+|[JMS](applications/source/jms-source/README.adoc)|[Image Recognition(Tensorflow)](applications/processor/image-recognition-processor/README.adoc)|[JDBC](applications/sink/jdbc-sink/README.adoc)|
+|[Load-Generator](applications/source/load-generator-source/README.adoc)|[Object Detection(Tensorflow)](applications/processor/object-detection-processor/README.adoc)|[Log](applications/sink/log-sink/README.adoc)|
+|[Mail](applications/source/mail-source/README.adoc)|      |[MongoDB](applications/sink/mongodb-sink/README.adoc)|
+|[MongoDB](applications/source/mongodb-source/README.adoc)|[Semantic Segmentation(Tensorflow)](applications/processor/semantic-segmentation-processor/README.adoc)|[MQTT](applications/sink/mqtt-sink/README.adoc)|
+|[MQTT](applications/source/mqtt-source/README.adoc)|[Script](applications/processor/script-processor/README.adoc)|[Pgcopy](applications/sink/pgcopy-sink/README.adoc)|
+|[RabbitMQ](applications/source/rabbit-source/README.adoc)|[Splitter](applications/processor/splitter-processor/README.adoc)|[RabbitMQ](applications/sink/rabbit-sink/README.adoc)|
 
-
-
-
-
-|link:applications/source/file-source/README.adoc[File]
-|link:applications/processor/bridge-processor/README.adoc[Bridge]
-|link:applications/sink/cassandra-sink/README.adoc[Cassandra]
-|link:applications/source/ftp-source/README.adoc[FTP]
-|link:applications/processor/filter-processor/README.adoc[Filter]
-|link:applications/sink/elasticsearch-sink/README.adoc[Elasticsearch]
-|link:applications/processor/groovy-processor/README.adoc[Groovy]
-|link:applications/sink/file-sink/README.adoc[Fiile]
-|link:applications/source/http-source/README.adoc[HTTP]
-|link:applications/processor/header-enricher-processor/README.adoc[Header-Enricher]
-|link:applications/sink/ftp-sink/README.adoc[FTP]
-|link:applications/source/jdbc-source/README.adoc[JDBC]
-|link:applications/processor/http-request-processor/README.adoc[HTTP Request]
-|link:applications/source/jms-source/README.adoc[JMS]
-|link:applications/processor/image-recognition-processor/README.adoc[Image Recognition(Tensorflow)]
-|link:applications/sink/jdbc-sink/README.adoc[JDBC]
-|link:applications/source/load-generator-source/README.adoc[Load-Generator]
-|link:applications/processor/object-detection-processor/README.adoc[Object Detection(Tensorflow)]
-|link:applications/sink/log-sink/README.adoc[Log]
-|link:applications/source/mail-source/README.adoc[Mail]
 |
-|link:applications/sink/mongodb-sink/README.adoc[MongoDB]
-|link:applications/source/mongodb-source/README.adoc[MongoDB]
-|link:applications/processor/semantic-segmentation-processor/README.adoc[Semantic Segmentation(Tensorflow)]
-|link:applications/sink/mqtt-sink/README.adoc[MQTT]
-|link:applications/source/mqtt-source/README.adoc[MQTT]
-|link:applications/processor/script-processor/README.adoc[Script]
-|link:applications/sink/pgcopy-sink/README.adoc[Pgcopy]
-|link:applications/source/rabbit-source/README.adoc[RabbitMQ]
-|link:applications/processor/splitter-processor/README.adoc[Splitter]
-|link:applications/sink/rabbit-sink/README.adoc[RabbitMQ]
+
+
+
+
+
+
 |link:applications/source/s3-source/README.adoc[AWS S3]
 |link:applications/processor/transform-processor/README.adoc[Transform]
 |link:applications/sink/redis-sink/README.adoc[Redis]
