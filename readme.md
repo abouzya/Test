@@ -124,7 +124,19 @@ You can then build the desired apps.
 ```
 
 **Note:**
-- In order to disable metrics by default there needs to be application properties configured like in `default-application.properties`. The `build-app.sh` script will copy default-application.properties into src/main/resources if no application.properties,yml,yaml or json is present.  
+In order to disable metrics by default there needs to be application properties configured like in `default-application.properties`. The `build-app.sh` script will copy default-application.properties into src/main/resources if no application.properties,yml,yaml or json is present.  
+
+### Additional Resources
+
+Here is a list of resources where you can find out more about using and developing functions and stream applications:
+
+- [Function Composition](docs/FunctionComposition.adoc)
+- [Contributing a New Function or Application to this Repository](docs/Contributing.adoc)
+
+### Code of Conduct
+
+Please see our [Code of Conduct](https://github.com/spring-projects/.github/blob/master/CODE_OF_CONDUCT.md)
+
 
 
 
