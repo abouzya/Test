@@ -123,8 +123,9 @@ You can then build the desired apps.
 ./build-app.sh . applications/sink/log-sink
 ```
 
-| Note     | In order to disable metrics by default there needs to be application properties configured like in `default-application.properties`. The `build-app.sh` script will copy default-application.properties into src/main/resources if no application.properties,yml,yaml or json is present.  | 
-|----------|---------|
+**Note:**
+- In order to disable metrics by default there needs to be application properties configured like in `default-application.properties`. The `build-app.sh` script will copy default-application.properties into src/main/resources if no application.properties,yml,yaml or json is present.  
+
 
 
 
