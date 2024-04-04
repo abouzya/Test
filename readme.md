@@ -27,7 +27,7 @@ The following are the various components of this repository.
 
 | Source                                                                    | Processor                                                                  | Sink                                                |
 | ------------------------------------------------------------------------- |:--------------------------------------------------------------------------:| ---------------------------------------------------:|
-| [Debezium supplier](link:functions/supplier/debezium-supplier/README.adoc)| [Debezium supplier](link:functions/supplier/debezium-supplier/README.adoc) | [Analytics](link:functions/consumer/analytics-consumer/README.adoc) |
+| [Debezium supplier](functions/supplier/debezium-supplier/README.adoc)| [Debezium supplier](functions/supplier/debezium-supplier/README.adoc) | [Analytics](functions/consumer/analytics-consumer/README.adoc) |
 
 
 Markdown | Less | Pretty
