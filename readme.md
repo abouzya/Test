@@ -27,7 +27,8 @@ The following are the various components of this repository.
 
 | Source                                                                    | Processor                                                                  | Sink                                                |
 | ------------------------------------------------------------------------- |:--------------------------------------------------------------------------:| ---------------------------------------------------:|
-| [Debezium supplier](functions/supplier/debezium-supplier/README.adoc)| [Debezium supplier](functions/supplier/debezium-supplier/README.adoc) | [Analytics](functions/consumer/analytics-consumer/README.adoc)| | [File](functions/supplier/file-supplier/README.adoc)| [Filter](functions/function/filter-function/README.adoc) | [Cassandra](functions/consumer/cassandra-consumer/README.adoc)|
+| [Debezium supplier](functions/supplier/debezium-supplier/README.adoc)| [Debezium supplier](functions/supplier/debezium-supplier/README.adoc) | [Analytics](functions/consumer/analytics-consumer/README.adoc)| 
+| [File](functions/supplier/file-supplier/README.adoc)| [Filter](functions/function/filter-function/README.adoc) | [Cassandra](functions/consumer/cassandra-consumer/README.adoc)|
 | [FTP](functions/supplier/ftp-supplier/README.adoc) | [Header-Enricher](functions/function/header-enricher-function/README.adoc) | [Elasticsearch](functions/consumer/elasticsearch-consumer/README.adoc)|
 
 
