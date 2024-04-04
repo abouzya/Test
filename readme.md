@@ -54,7 +54,7 @@ The following are the various components of this repository.
 |[Time](functions/supplier/time-supplier/README.adoc)|    |    |
 |    |    |[TCP](functions/consumer/tcp-consumer/README.adoc)|
 |[Twitter](functions/supplier/twitter-supplier/README.adoc)|[Twitter](functions/function/twitter-function/README.adoc)|[Twitter](functions/consumer/twitter-consumer/README.adoc)|
-|[[Websocket](functions/supplier/websocket-supplier/README.adoc)|     |[Websocket](functions/consumer/websocket-consumer/README.adoc)|
+|[Websocket](functions/supplier/websocket-supplier/README.adoc)|     |[Websocket](functions/consumer/websocket-consumer/README.adoc)|
 |    |    |[Wavefront](functions/consumer/wavefront-consumer/README.adoc)|
 |[XMPP](functions/supplier/xmpp-supplier/README.adoc)|    |[XMPP](functions/consumer/xmpp-consumer/README.adoc)|
 
