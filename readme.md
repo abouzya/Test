@@ -30,3 +30,7 @@ The following are the various components of this repository.
 | [Debezium supplier](link:functions/supplier/debezium-supplier/README.adoc)| [Debezium supplier](link:functions/supplier/debezium-supplier/README.adoc) | [Analytics](link:functions/consumer/analytics-consumer/README.adoc) |
 
 
+Markdown | Less | Pretty
+--- | --- | ---
+[Debezium supplier](link:functions/supplier/debezium-supplier/README.adoc)| [Debezium supplier](link:functions/supplier/debezium-supplier/README.adoc) | [Analytics](link:functions/consumer/analytics-consumer/README.adoc)
+1 | 2 | 3
