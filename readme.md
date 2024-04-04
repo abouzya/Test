@@ -25,8 +25,10 @@ The following are the various components of this repository.
 ## Reusable Functions
 
 
-| Source        | Processor     | Sink  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| Source                                                                    | Processor                                                                  | Sink                                                |
+| ------------------------------------------------------------------------- |:--------------------------------------------------------------------------:| ---------------------------------------------------:|
+| [Debezium supplier](link:functions/supplier/debezium-supplier/README.adoc)| [Debezium supplier](link:functions/supplier/debezium-supplier/README.adoc) | [Analytics](link:functions/consumer/analytics-consumer/README.adoc) |
+
+|link:functions/supplier/debezium-supplier/README.adoc[Debezium supplier]
+|link:functions/function/aggregator-function/README.adoc[Aggregator]
+|link:functions/consumer/analytics-consumer/README.adoc[Analytics]
