@@ -63,7 +63,7 @@ The following are the various components of this repository.
 
 | Source                                                                    | Processor                                                                  | Sink                         |                      
 | ------------------------------------------------------------------------- |:--------------------------------------------------------------------------:| ----------------------------:|
-|[Debezium supplier](:applications/source/debezium-source/README.adoc)   |[Aggregator](applications/processor/aggregator-processor/README.adoc)|[Analytics](applications/sink/analytics-sink/README.adoc)|
+|[Debezium supplier](applications/source/debezium-source/README.adoc)   |[Aggregator](applications/processor/aggregator-processor/README.adoc)|[Analytics](applications/sink/analytics-sink/README.adoc)|
 
 
 
