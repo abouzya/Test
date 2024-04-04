@@ -17,7 +17,7 @@ The former hosts the various Java functions, and the latter is for generating th
 The following are the various components of this repository.
 
 - [Standalone Java Functions](https://github.com/spring-cloud/stream-applications/tree/master/functions)
-- [Common Core Components for Applications] (https://github.com/spring-cloud/stream-applications/tree/master/applications/stream-applications-core)
-- [Spring Cloud Stream Applications] (https://github.com/spring-cloud/stream-applications/tree/master/applications)
-- [Build Parent] (https://github.com/spring-cloud/stream-applications/tree/master/stream-applications-build)
-- [Release Train] (https://github.com/spring-cloud/stream-applications/tree/master/stream-applications-release-train)
+- [Common Core Components for Applications](https://github.com/spring-cloud/stream-applications/tree/master/applications/stream-applications-core)
+- [Spring Cloud Stream Applications](https://github.com/spring-cloud/stream-applications/tree/master/applications)
+- [Build Parent](https://github.com/spring-cloud/stream-applications/tree/master/stream-applications-build)
+- [Release Train](https://github.com/spring-cloud/stream-applications/tree/master/stream-applications-release-train)
