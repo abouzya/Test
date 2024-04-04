@@ -34,29 +34,17 @@ The following are the various components of this repository.
 |[HTTP](functions/supplier/http-supplier/README.adoc) | [HTTP Request](functions/function/http-request-function/README.adoc) | [FTP](functions/consumer/ftp-consumer/README.adoc)|
 |[JDBC](functions/supplier/jdbc-supplier/README.adoc) | [Image Recognition(Tensorflow)](functions/function/image-recognition-function/README.adoc)|   |
 |[JMS](functions/supplier/jms-supplier/README.adoc) |   |   |
+|     | [Object Detection(Tensorflow)](functions/function/object-detection-function/README.adoc)|[JDBC](functions/consumer/jdbc-consumer/README.adoc)
+|[Mail](functions/supplier/mail-supplier/README.adoc)|   |    |
+|    |[Semantic Segmentation(Tensorflow)](functions/function/semantic-segmentation-function/README.adoc)|[Log](functions/consumer/log-consumer/README.adoc)
+|[MongoDB](functions/supplier/mongodb-supplier/README.adoc)|   |    |
+|  |[SpEL](functions/function/spel-function/README.adoc)| [MongoDB](functions/consumer/mongodb-consumer/README.adoc)|
+|[MQTT](functions/supplier/mqtt-supplier/README.adoc)|   |   |
+|    |[Splitter](functions/function/splitter-function/README.adoc)|[MQTT](functions/consumer/mqtt-consumer/README.adoc)|
+|[RabbitMQ](functions/supplier/rabbit-supplier/README.adoc)|[Task Launch Request](functions/function/task-launch-request-function/README.adoc)|[RabbitMQ](functions/consumer/rabbit-consumer/README.adoc)
 
 
 
 
 
-|link:functions/function/object-detection-function/README.adoc[Object Detection(Tensorflow)]
-|link:functions/consumer/jdbc-consumer/README.adoc[JDBC]
 
-|link:functions/supplier/mail-supplier/README.adoc[Mail]
-
-|link:functions/function/semantic-segmentation-function/README.adoc[Semantic Segmentation(Tensorflow)]
-|link:functions/consumer/log-consumer/README.adoc[Log]
-
-|link:functions/supplier/mongodb-supplier/README.adoc[MongoDB]
-
-|link:functions/function/spel-function/README.adoc[SpEL]
-|link:functions/consumer/mongodb-consumer/README.adoc[MongoDB]
-
-|link:functions/supplier/mqtt-supplier/README.adoc[MQTT]
-
-|link:functions/function/splitter-function/README.adoc[Splitter]
-|link:functions/consumer/mqtt-consumer/README.adoc[MQTT]
-
-|link:functions/supplier/rabbit-supplier/README.adoc[RabbitMQ]
-|link:functions/function/task-launch-request-function/README.adoc[Task Launch Request]
-|link:functions/consumer/rabbit-consumer/README.adoc[RabbitMQ]
