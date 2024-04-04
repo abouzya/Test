@@ -52,30 +52,19 @@ The following are the various components of this repository.
 |[TCP](functions/supplier/tcp-supplier/README.adoc)|    |    |
 |    |    |[SFTP](functions/consumer/sftp-consumer/README.adoc)|
 |[Time](functions/supplier/time-supplier/README.adoc)|    |    |
+|    |    |[TCP](functions/consumer/tcp-consumer/README.adoc)|
+|[Twitter](functions/supplier/twitter-supplier/README.adoc)|[Twitter](functions/function/twitter-function/README.adoc)|[Twitter](functions/consumer/twitter-consumer/README.adoc)|
+|[[Websocket](functions/supplier/websocket-supplier/README.adoc)|     |[Websocket](functions/consumer/websocket-consumer/README.adoc)|
+|    |    |[Wavefront](functions/consumer/wavefront-consumer/README.adoc)|
+|[XMPP](functions/supplier/xmpp-supplier/README.adoc)|    |[XMPP](functions/consumer/xmpp-consumer/README.adoc)|
 
 
 
 
 
 
-|
-|link:functions/consumer/tcp-consumer/README.adoc[TCP]
 
-|link:functions/supplier/twitter-supplier/README.adoc[Twitter]
-|link:functions/function/twitter-function/README.adoc[Twitter]
-|link:functions/consumer/twitter-consumer/README.adoc[Twitter]
 
-|link:functions/supplier/websocket-supplier/README.adoc[Websocket]
-|
-|link:functions/consumer/websocket-consumer/README.adoc[Websocket]
-
-|
-|
-|link:functions/consumer/wavefront-consumer/README.adoc[Wavefront]
-|link:functions/supplier/xmpp-supplier/README.adoc[XMPP]
-|
-|link:functions/consumer/xmpp-consumer/README.adoc[XMPP]
-|===
 
 
 
