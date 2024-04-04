@@ -59,6 +59,87 @@ The following are the various components of this repository.
 |[XMPP](functions/supplier/xmpp-supplier/README.adoc)|    |[XMPP](functions/consumer/xmpp-consumer/README.adoc)|
 
 
+## Reusable Spring Cloud Stream Applications
+
+| Source                                                                    | Processor                                                                  | Sink                                                |
+| ------------------------------------------------------------------------- |:--------------------------------------------------------------------------:| ----------------------------:|
+
+
+
+
+
+|link:applications/source/debezium-source/README.adoc[Debezium supplier]
+|link:applications/processor/aggregator-processor/README.adoc[Aggregator]
+|link:applications/sink/analytics-sink/README.adoc[Analytics]
+|link:applications/source/file-source/README.adoc[File]
+|link:applications/processor/bridge-processor/README.adoc[Bridge]
+|link:applications/sink/cassandra-sink/README.adoc[Cassandra]
+|link:applications/source/ftp-source/README.adoc[FTP]
+|link:applications/processor/filter-processor/README.adoc[Filter]
+|link:applications/sink/elasticsearch-sink/README.adoc[Elasticsearch]
+|link:applications/processor/groovy-processor/README.adoc[Groovy]
+|link:applications/sink/file-sink/README.adoc[Fiile]
+|link:applications/source/http-source/README.adoc[HTTP]
+|link:applications/processor/header-enricher-processor/README.adoc[Header-Enricher]
+|link:applications/sink/ftp-sink/README.adoc[FTP]
+|link:applications/source/jdbc-source/README.adoc[JDBC]
+|link:applications/processor/http-request-processor/README.adoc[HTTP Request]
+|link:applications/source/jms-source/README.adoc[JMS]
+|link:applications/processor/image-recognition-processor/README.adoc[Image Recognition(Tensorflow)]
+|link:applications/sink/jdbc-sink/README.adoc[JDBC]
+|link:applications/source/load-generator-source/README.adoc[Load-Generator]
+|link:applications/processor/object-detection-processor/README.adoc[Object Detection(Tensorflow)]
+|link:applications/sink/log-sink/README.adoc[Log]
+|link:applications/source/mail-source/README.adoc[Mail]
+|
+|link:applications/sink/mongodb-sink/README.adoc[MongoDB]
+|link:applications/source/mongodb-source/README.adoc[MongoDB]
+|link:applications/processor/semantic-segmentation-processor/README.adoc[Semantic Segmentation(Tensorflow)]
+|link:applications/sink/mqtt-sink/README.adoc[MQTT]
+|link:applications/source/mqtt-source/README.adoc[MQTT]
+|link:applications/processor/script-processor/README.adoc[Script]
+|link:applications/sink/pgcopy-sink/README.adoc[Pgcopy]
+|link:applications/source/rabbit-source/README.adoc[RabbitMQ]
+|link:applications/processor/splitter-processor/README.adoc[Splitter]
+|link:applications/sink/rabbit-sink/README.adoc[RabbitMQ]
+|link:applications/source/s3-source/README.adoc[AWS S3]
+|link:applications/processor/transform-processor/README.adoc[Transform]
+|link:applications/sink/redis-sink/README.adoc[Redis]
+|link:applications/source/sftp-source/README.adoc[SFTP]
+|link:applications/processor/twitter-trend-processor/README.adoc[Twitter Trend]
+|link:applications/sink/router-sink/README.adoc[Router]
+|link:applications/source/syslog-source/README.adoc[Syslog]
+|
+|link:applications/sink/rsocket-sink/README.adoc[RSocket]
+|link:applications/source/tcp-source/README.adoc[TCP]
+|
+|link:applications/sink/sftp-sink/README.adoc[SFTP]
+|link:applications/source/time-source/README.adoc[Time]
+|
+|link:applications/sink/tasklauncher-sink/README.adoc[Task Launcher]
+|link:applications/source/twitter-message-source/README.adoc[Twitter Message]
+|
+|link:applications/sink/tcp-sink/README.adoc[TCP]
+|link:applications/source/twitter-search-source/README.adoc[Twitter Search]
+|
+|link:applications/sink/throughput-sink/README.adoc[Throughput]
+|link:applications/source/twitter-stream-source/README.adoc[Twitter Stream]
+|
+|link:applications/sink/twitter-message-sink/README.adoc[Twitter Message]
+|link:applications/source/websocket-source/README.adoc[Websocket]
+|
+|link:applications/sink/twitter-update-sink/README.adoc[Twitter Update]
+|link:applications/source/xmpp-source/README.adoc[XMPP]
+|
+|link:applications/sink/wavefront-sink/README.adoc[Wavefront]
+|
+|
+|link:applications/sink/websocket-sink/README.adoc[Websocket]
+|
+|
+|link:applications/sink/xmpp-sink/README.adoc[XMPP]
+|===
+
 
 
 
