@@ -21,3 +21,12 @@ The following are the various components of this repository.
 - [Spring Cloud Stream Applications](https://github.com/spring-cloud/stream-applications/tree/master/applications)
 - [Build Parent](https://github.com/spring-cloud/stream-applications/tree/master/stream-applications-build)
 - [Release Train](https://github.com/spring-cloud/stream-applications/tree/master/stream-applications-release-train)
+
+## Reusable Functions
+
+
+| Source        | Processor     | Sink  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
