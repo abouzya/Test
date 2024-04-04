@@ -61,16 +61,14 @@ The following are the various components of this repository.
 
 ## Reusable Spring Cloud Stream Applications
 
-| Source                                                                    | Processor                                                                  | Sink                                                |
+| Source                                                                    | Processor                                                                  | Sink                         |                      
 | ------------------------------------------------------------------------- |:--------------------------------------------------------------------------:| ----------------------------:|
+|[Debezium supplier](:applications/source/debezium-source/README.adoc)   |[Aggregator](applications/processor/aggregator-processor/README.adoc)|[Analytics](applications/sink/analytics-sink/README.adoc)|
 
 
 
 
 
-|link:applications/source/debezium-source/README.adoc[Debezium supplier]
-|link:applications/processor/aggregator-processor/README.adoc[Aggregator]
-|link:applications/sink/analytics-sink/README.adoc[Analytics]
 |link:applications/source/file-source/README.adoc[File]
 |link:applications/processor/bridge-processor/README.adoc[Bridge]
 |link:applications/sink/cassandra-sink/README.adoc[Cassandra]
