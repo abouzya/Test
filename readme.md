@@ -29,6 +29,4 @@ The following are the various components of this repository.
 | ------------------------------------------------------------------------- |:--------------------------------------------------------------------------:| ---------------------------------------------------:|
 | [Debezium supplier](link:functions/supplier/debezium-supplier/README.adoc)| [Debezium supplier](link:functions/supplier/debezium-supplier/README.adoc) | [Analytics](link:functions/consumer/analytics-consumer/README.adoc) |
 
-|link:functions/supplier/debezium-supplier/README.adoc[Debezium supplier]
-|link:functions/function/aggregator-function/README.adoc[Aggregator]
-|link:functions/consumer/analytics-consumer/README.adoc[Analytics]
+
