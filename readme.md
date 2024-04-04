@@ -32,4 +32,31 @@ The following are the various components of this repository.
 | [FTP](functions/supplier/ftp-supplier/README.adoc) | [Header-Enricher](functions/function/header-enricher-function/README.adoc) | [Elasticsearch](functions/consumer/elasticsearch-consumer/README.adoc)|
 |    |[Header-Filter](functions/function/header-filter-function/README.adoc)|[File](functions/consumer/file-consumer/README.adoc)|
 |[HTTP](functions/supplier/http-supplier/README.adoc) | [HTTP Request](functions/function/http-request-function/README.adoc) | [FTP](functions/consumer/ftp-consumer/README.adoc)|
+|[JDBC](functions/supplier/jdbc-supplier/README.adoc) | [Image Recognition(Tensorflow)](functions/function/image-recognition-function/README.adoc)|   |
+|[JMS](functions/supplier/jms-supplier/README.adoc) |   |   |
 
+
+
+
+
+|link:functions/function/object-detection-function/README.adoc[Object Detection(Tensorflow)]
+|link:functions/consumer/jdbc-consumer/README.adoc[JDBC]
+
+|link:functions/supplier/mail-supplier/README.adoc[Mail]
+
+|link:functions/function/semantic-segmentation-function/README.adoc[Semantic Segmentation(Tensorflow)]
+|link:functions/consumer/log-consumer/README.adoc[Log]
+
+|link:functions/supplier/mongodb-supplier/README.adoc[MongoDB]
+
+|link:functions/function/spel-function/README.adoc[SpEL]
+|link:functions/consumer/mongodb-consumer/README.adoc[MongoDB]
+
+|link:functions/supplier/mqtt-supplier/README.adoc[MQTT]
+
+|link:functions/function/splitter-function/README.adoc[Splitter]
+|link:functions/consumer/mqtt-consumer/README.adoc[MQTT]
+
+|link:functions/supplier/rabbit-supplier/README.adoc[RabbitMQ]
+|link:functions/function/task-launch-request-function/README.adoc[Task Launch Request]
+|link:functions/consumer/rabbit-consumer/README.adoc[RabbitMQ]
