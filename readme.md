@@ -75,41 +75,29 @@ The following are the various components of this repository.
 |[MongoDB](applications/source/mongodb-source/README.adoc)|[Semantic Segmentation(Tensorflow)](applications/processor/semantic-segmentation-processor/README.adoc)|[MQTT](applications/sink/mqtt-sink/README.adoc)|
 |[MQTT](applications/source/mqtt-source/README.adoc)|[Script](applications/processor/script-processor/README.adoc)|[Pgcopy](applications/sink/pgcopy-sink/README.adoc)|
 |[RabbitMQ](applications/source/rabbit-source/README.adoc)|[Splitter](applications/processor/splitter-processor/README.adoc)|[RabbitMQ](applications/sink/rabbit-sink/README.adoc)|
+|[AWS S3](applications/source/s3-source/README.adoc)|[Transform](applications/processor/transform-processor/README.ado)|[Redis](applications/sink/redis-sink/README.adoc)|
+|[SFTP](applications/source/sftp-source/README.adoc)|[Twitter Trend](applications/processor/twitter-trend-processor/README.adoc)|[Router](applications/sink/router-sink/README.adoc)|
+|[Syslog](applications/source/syslog-source/README.adoc)|      |[RSocket](applications/sink/rsocket-sink/README.adoc)|
+|[TCP](applications/source/tcp-source/README.adoc)|        |[SFTP](applications/sink/sftp-sink/README.adoc)|
+|[Time](applications/source/time-source/README.adoc)|      |[Task Launcher](applications/sink/tasklauncher-sink/README.adoc)|
+|[Twitter Message](applications/source/twitter-message-source/README.adoc)|        |[TCP](applications/sink/tcp-sink/README.adoc)|
+|[Twitter Search](applications/source/twitter-search-source/README.adoc)|          |[Throughput](applications/sink/throughput-sink/README.adoc)|
+|[Twitter Stream](applications/source/twitter-stream-source/README.adoc)|           |[Twitter Message](applications/sink/twitter-message-sink/README.adoc)|
+|[Websocket](applications/source/websocket-source/README.adoc)|        |[Twitter Update](applications/sink/twitter-update-sink/README.adoc)|
+|[XMPP](applications/source/xmpp-source/README.adoc)|          |[Wavefront](applications/sink/wavefront-sink/README.adoc)|
+|        |        |[Websocket](applications/sink/websocket-sink/README.adoc)|
+|        |        |[XMPP](applications/sink/xmpp-sink/README.adoc)|
+|[Grnry-JDBC](applications/source/grnry-jdbc-source/README.adoc)|        |[Grnry-Eventstore](applications/sink/grnry-eventstore-sink/README.adoc)|
 
-|
 
 
 
 
 
 
-|link:applications/source/s3-source/README.adoc[AWS S3]
-|link:applications/processor/transform-processor/README.adoc[Transform]
-|link:applications/sink/redis-sink/README.adoc[Redis]
-|link:applications/source/sftp-source/README.adoc[SFTP]
-|link:applications/processor/twitter-trend-processor/README.adoc[Twitter Trend]
-|link:applications/sink/router-sink/README.adoc[Router]
-|link:applications/source/syslog-source/README.adoc[Syslog]
-|
-|link:applications/sink/rsocket-sink/README.adoc[RSocket]
-|link:applications/source/tcp-source/README.adoc[TCP]
-|
-|link:applications/sink/sftp-sink/README.adoc[SFTP]
-|link:applications/source/time-source/README.adoc[Time]
-|
-|link:applications/sink/tasklauncher-sink/README.adoc[Task Launcher]
-|link:applications/source/twitter-message-source/README.adoc[Twitter Message]
-|
-|link:applications/sink/tcp-sink/README.adoc[TCP]
-|link:applications/source/twitter-search-source/README.adoc[Twitter Search]
-|
-|link:applications/sink/throughput-sink/README.adoc[Throughput]
-|link:applications/source/twitter-stream-source/README.adoc[Twitter Stream]
-|
-|link:applications/sink/twitter-message-sink/README.adoc[Twitter Message]
-|link:applications/source/websocket-source/README.adoc[Websocket]
-|
-|link:applications/sink/twitter-update-sink/README.adoc[Twitter Update]
+
+
+
 |link:applications/source/xmpp-source/README.adoc[XMPP]
 |
 |link:applications/sink/wavefront-sink/README.adoc[Wavefront]
