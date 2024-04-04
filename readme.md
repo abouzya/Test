@@ -96,13 +96,32 @@ This build requires GraalVM JDK 17 distribution in order to build the script fun
 
 If you are building locally and don't want to publish to a repository set: `export LOCAL=true`
 
-## Quick Compile
+### Quick Compile
 
 This will compile all jars and publish to local repo.
 ```bash
 ./quick-compile.sh
 ```
+### Boil the Ocean
 
+This will build and test / integration test all the modules.
+```bash
+./full-build-test.sh
+```
+### Core
+
+This will build the core functionality and all functions.
+```bash
+./build-core.sh
+```
+
+You can then build the desired apps.
+
+### Application
+
+```bash
+./build-app.sh . applications/sink/log-sink
+```
 
 
 
