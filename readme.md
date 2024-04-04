@@ -32,6 +32,7 @@ The following are the various components of this repository.
 | [FTP](functions/supplier/ftp-supplier/README.adoc) | [Header-Enricher](functions/function/header-enricher-function/README.adoc) | [Elasticsearch](functions/consumer/elasticsearch-consumer/README.adoc)|
 |    |[Header-Filter](functions/function/header-filter-function/README.adoc)|[File](functions/consumer/file-consumer/README.adoc)|
 |[HTTP](functions/supplier/http-supplier/README.adoc) | [HTTP Request](functions/function/http-request-function/README.adoc) | [FTP](functions/consumer/ftp-consumer/README.adoc)|
+|[Grnry-JDBC](functions/supplier/grnry-jdbc-supplier/README.adoc)|    |    |
 |[JDBC](functions/supplier/jdbc-supplier/README.adoc) | [Image Recognition(Tensorflow)](functions/function/image-recognition-function/README.adoc)|   |
 |[JMS](functions/supplier/jms-supplier/README.adoc) |   |   |
 |     | [Object Detection(Tensorflow)](functions/function/object-detection-function/README.adoc)|[JDBC](functions/consumer/jdbc-consumer/README.adoc)
@@ -42,8 +43,39 @@ The following are the various components of this repository.
 |[MQTT](functions/supplier/mqtt-supplier/README.adoc)|   |   |
 |    |[Splitter](functions/function/splitter-function/README.adoc)|[MQTT](functions/consumer/mqtt-consumer/README.adoc)|
 |[RabbitMQ](functions/supplier/rabbit-supplier/README.adoc)|[Task Launch Request](functions/function/task-launch-request-function/README.adoc)|[RabbitMQ](functions/consumer/rabbit-consumer/README.adoc)
+|[AWS S3](functions/supplier/s3-supplier/README.adoc)|   |    |
+|    |    |[Redis](functions/consumer/redis-consumer/README.adoc)|
+|[SFTP](functions/supplier/sftp-supplier/README.adoc)|  |   |
+|    |    |[RSocket](functions/consumer/rsocket-consumer/README.adoc)|
+|[Syslog](functions/supplier/syslog-supplier/README.adoc)|    |    |
+|    |    |[AWS S3](functions/consumer/s3-consumer/README.adoc)|
+|[TCP](functions/supplier/tcp-supplier/README.adoc)|    |    |
+|    |    |[SFTP](functions/consumer/sftp-consumer/README.adoc)|
+|[Time](functions/supplier/time-supplier/README.adoc)|    |    |
 
 
+
+
+
+
+|
+|link:functions/consumer/tcp-consumer/README.adoc[TCP]
+
+|link:functions/supplier/twitter-supplier/README.adoc[Twitter]
+|link:functions/function/twitter-function/README.adoc[Twitter]
+|link:functions/consumer/twitter-consumer/README.adoc[Twitter]
+
+|link:functions/supplier/websocket-supplier/README.adoc[Websocket]
+|
+|link:functions/consumer/websocket-consumer/README.adoc[Websocket]
+
+|
+|
+|link:functions/consumer/wavefront-consumer/README.adoc[Wavefront]
+|link:functions/supplier/xmpp-supplier/README.adoc[XMPP]
+|
+|link:functions/consumer/xmpp-consumer/README.adoc[XMPP]
+|===
 
 
 
