@@ -90,6 +90,18 @@ The following are the various components of this repository.
 |[Grnry-JDBC](applications/source/grnry-jdbc-source/README.adoc)|        |[Grnry-Eventstore](applications/sink/grnry-eventstore-sink/README.adoc)|
 
 
+## Build
+
+This build requires GraalVM JDK 17 distribution in order to build the script function and processor.
+
+If you are building locally and don't want to publish to a repository set: `export LOCAL=true`
+
+## Quick Compile
+
+This will compile all jars and publish to local repo.
+```bash
+./quick-compile.sh
+```
 
 
 
@@ -97,17 +109,6 @@ The following are the various components of this repository.
 
 
 
-
-|link:applications/source/xmpp-source/README.adoc[XMPP]
-|
-|link:applications/sink/wavefront-sink/README.adoc[Wavefront]
-|
-|
-|link:applications/sink/websocket-sink/README.adoc[Websocket]
-|
-|
-|link:applications/sink/xmpp-sink/README.adoc[XMPP]
-|===
 
 
 
