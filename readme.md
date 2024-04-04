@@ -31,8 +31,5 @@ The following are the various components of this repository.
 | [File](functions/supplier/file-supplier/README.adoc)| [Filter](functions/function/filter-function/README.adoc) | [Cassandra](functions/consumer/cassandra-consumer/README.adoc)|
 | [FTP](functions/supplier/ftp-supplier/README.adoc) | [Header-Enricher](functions/function/header-enricher-function/README.adoc) | [Elasticsearch](functions/consumer/elasticsearch-consumer/README.adoc)|
 |    |[Header-Filter](functions/function/header-filter-function/README.adoc)|[File](functions/consumer/file-consumer/README.adoc)|
-
-|link:functions/supplier/http-supplier/README.adoc[HTTP]
-|link:functions/function/http-request-function/README.adoc[HTTP Request]
-|link:functions/consumer/ftp-consumer/README.adoc[FTP]
+|[HTTP](functions/supplier/http-supplier/README.adoc) | [HTTP Request](functions/function/http-request-function/README.adoc) | [FTP](functions/consumer/ftp-consumer/README.adoc)|
 
